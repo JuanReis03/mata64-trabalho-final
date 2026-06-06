@@ -26,13 +26,23 @@ O agente toma decisões (abrir/fechar o semáforo) com base no estado atual do c
 * `outputs/`: (Gerado automaticamente) Onde o SUMO-RL salvará os logs e métricas em CSV do desempenho do agente.
 
 ## Como executar localmente
+Certifique-se de ter o Eclipse SUMO instalado na sua máquina e a variável de ambiente SUMO_HOME configurada.
 
-1. Certifique-se de ter o **Eclipse SUMO** instalado na sua máquina e a variável de ambiente `SUMO_HOME` configurada.
-2. Instale o gerenciador de pacotes `uv`.
-3. Crie e ative o ambiente virtual:
-   ```bash
-   uv venv
-   # No Windows:
-   .\.venv\Scripts\activate
-   # No Linux/Mac:
-   source .venv/bin/activate
+a.  Instale o gerenciador de pacotes uv.
+
+b. Crie e ative o ambiente virtual. No terminal da sua pasta, digite:
+
+  1. Para criar: uv venv
+
+  2. Para ativar no Windows: .\.venv\Scripts\activate
+
+  3. Para ativar no Linux/Mac: source .venv/bin/activate
+
+c. Com o ambiente ativado, instale as dependências executando o comando abaixo:
+
+  1. uv pip install gymnasium stable-baselines3[extra] sumo-rl
+
+d. Por fim, rode o script de treinamento:
+
+  1.  python src/train.py
+  
