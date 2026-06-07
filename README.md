@@ -43,16 +43,13 @@ Durante a modelagem, enfrentamos o clássico problema de *Reward Hacking*: a IA 
    # No Linux/Mac:
    source .venv/bin/activate
 4. 
-``` bash 
+   ``` bash 
     uv pip install gymnasium stable-baselines3[extra] sumo-rl
-5.  
-``` bash 
-    python src/train.py
-6. Para treinar um modelo:
-  ``` bash 
+5. Para treinar um modelo:
+   ``` bash 
       python src/treino.py       # Treina usando o algoritmo DQN
       python src/treino_a2c.py   # Treina usando o algoritmo A2C
       python src/treino_ppo.py   # Treina usando o algoritmo PPO
-7. Para treinar visualmente um modelo treinado(ainda não implementamos):
-  ``` bash 
+6. Para treinar visualmente um modelo treinado(ainda não implementamos):
+    ``` bash 
       python src/teste_modelo.py
