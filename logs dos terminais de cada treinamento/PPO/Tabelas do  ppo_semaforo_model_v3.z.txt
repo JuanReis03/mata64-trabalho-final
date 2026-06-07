@@ -1,0 +1,201 @@
+Tabelas do  ppo_semaforo_model_v3.zip
+
+--------------------------------- ~38000.00UPS, TraCI: 38ms, vehicles TOT 1771 ACT 38 BUF 
+| rollout/           |          |
+|    ep_len_mean     | 720      |
+|    ep_rew_mean     | -6.3e+03 |
+| time/              |          |
+|    fps             | 30       |
+|    iterations      | 1        |
+|    time_elapsed    | 67       |
+|    total_timesteps | 2048     |
+---------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 720         |
+|    ep_rew_mean          | -5.76e+03   |
+| time/                   |             |
+|    fps                  | 32          |
+|    iterations           | 2           |
+|    time_elapsed         | 127         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.014001861 |
+|    clip_fraction        | 0.142       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.682      |
+|    explained_variance   | 0.00299     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.31e+04    |
+|    n_updates            | 10          |
+|    policy_gradient_loss | -0.0214     |
+|    value_loss           | 2.71e+04    |
+-----------------------------------------
+-----------------------------------------s, vehicles TOT 1129 ACT 20 BUF 0)               
+| rollout/                |             |
+|    ep_len_mean          | 720         |
+|    ep_rew_mean          | -5.21e+03   |
+| time/                   |             |
+|    fps                  | 33          |
+|    iterations           | 3           |
+|    time_elapsed         | 183         |
+|    total_timesteps      | 6144        |
+| train/                  |             |
+|    approx_kl            | 0.008258264 |
+|    clip_fraction        | 0.035       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.661      |
+|    explained_variance   | 0.0126      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.27e+03    |
+|    n_updates            | 20          |
+|    policy_gradient_loss | -0.0108     |
+|    value_loss           | 1.14e+04    |
+-----------------------------------------
+------------------------------------------0UPS, TraCI: 22ms, vehicles TOT 763 ACT 24 BUF 0
+| rollout/                |              |
+|    ep_len_mean          | 720          |
+|    ep_rew_mean          | -4.85e+03    |
+| time/                   |              |
+|    fps                  | 34           |
+|    iterations           | 4            |
+|    time_elapsed         | 238          |
+|    total_timesteps      | 8192         |
+| train/                  |              |
+|    approx_kl            | 0.0063815233 |
+|    clip_fraction        | 0.0108       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.658       |
+|    explained_variance   | 0.00405      |
+|    learning_rate        | 0.0003       |
+|    loss                 | 4.16e+03     |
+|    n_updates            | 30           |
+|    policy_gradient_loss | -0.00552     |
+|    value_loss           | 8.43e+03     |
+------------------------------------------
+Step #800.00----------------------------------------- 26ms, vehicles TOT 382 ACT 16 BUF 0)
+| rollout/                |             |
+|    ep_len_mean          | 720         |
+|    ep_rew_mean          | -4.57e+03   |
+| time/                   |             |
+|    fps                  | 34          |
+|    iterations           | 5           |
+|    time_elapsed         | 295         |
+|    total_timesteps      | 10240       |
+| train/                  |             |
+|    approx_kl            | 0.008329349 |
+|    clip_fraction        | 0.0233      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.645      |
+|    explained_variance   | 0.00282     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 3.16e+03    |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.00656    |
+|    value_loss           | 6.39e+03    |
+-----------------------------------------
+------------------------------------------ vehicles TOT 127 ACT 17 BUF 0)                 
+| rollout/                |              |
+|    ep_len_mean          | 720          |
+|    ep_rew_mean          | -4.34e+03    |
+| time/                   |              |
+|    fps                  | 34           |
+|    iterations           | 6            |
+|    time_elapsed         | 351          |
+|    total_timesteps      | 12288        |
+| train/                  |              |
+|    approx_kl            | 0.0074297106 |
+|    clip_fraction        | 0.0191       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.615       |
+|    explained_variance   | 0.00139      |
+|    learning_rate        | 0.0003       |
+|    loss                 | 2.77e+03     |
+|    n_updates            | 50           |
+|    policy_gradient_loss | -0.00438     |
+|    value_loss           | 6.46e+03     |
+------------------------------------------
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 720         |
+|    ep_rew_mean          | -4.27e+03   |
+| time/                   |             |
+|    fps                  | 35          |
+|    iterations           | 7           |
+|    time_elapsed         | 409         |
+|    total_timesteps      | 14336       |
+| train/                  |             |
+|    approx_kl            | 0.006179013 |
+|    clip_fraction        | 0.0151      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.633      |
+|    explained_variance   | 0.000854    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 2.14e+03    |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.00489    |
+|    value_loss           | 5.06e+03    |
+-----------------------------------------
+------------------------------------------0UPS, TraCI: 32ms, vehicles TOT 1510 ACT 32 BUF 
+| rollout/                |              |
+|    ep_len_mean          | 720          |
+|    ep_rew_mean          | -4.13e+03    |
+| time/                   |              |
+|    fps                  | 35           |
+|    iterations           | 8            |
+|    time_elapsed         | 462          |
+|    total_timesteps      | 16384        |
+| train/                  |              |
+|    approx_kl            | 0.0020271917 |
+|    clip_fraction        | 0.00283      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -0.607       |
+|    explained_variance   | 0.000678     |
+|    learning_rate        | 0.0003       |
+|    loss                 | 3.55e+03     |
+|    n_updates            | 70           |
+|    policy_gradient_loss | -0.00328     |
+|    value_loss           | 6.35e+03     |
+------------------------------------------
+-----------------------------------------00UPS, TraCI: 20ms, vehicles TOT 1170 ACT 19 BUF 
+| rollout/                |             |
+|    ep_len_mean          | 720         |
+|    ep_rew_mean          | -3.98e+03   |
+| time/                   |             |
+|    fps                  | 35          |
+|    iterations           | 9           |
+|    time_elapsed         | 516         |
+|    total_timesteps      | 18432       |
+| train/                  |             |
+|    approx_kl            | 0.004107514 |
+|    clip_fraction        | 0.0218      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -0.585      |
+|    explained_variance   | 0.000752    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 1.62e+03    |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.00325    |
+|    value_loss           | 3.64e+03    |
+-----------------------------------------
+Step #1600.00----------------------------------------TOT 882 ACT 19 BUF 0)                
+| rollout/                |            |
+|    ep_len_mean          | 720        |
+|    ep_rew_mean          | -3.88e+03  |
+| time/                   |            |
+|    fps                  | 35         |
+|    iterations           | 10         |
+|    time_elapsed         | 571        |
+|    total_timesteps      | 20480      |
+| train/                  |            |
+|    approx_kl            | 0.00698148 |
+|    clip_fraction        | 0.0332     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -0.569     |
+|    explained_variance   | 0.000453   |
+|    learning_rate        | 0.0003     |
+|    loss                 | 1.59e+03   |
+|    n_updates            | 90         |
+|    policy_gradient_loss | -0.00704   |
+|    value_loss           | 3.37e+03   |
+----------------------------------------

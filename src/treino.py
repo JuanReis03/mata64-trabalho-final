@@ -13,9 +13,12 @@ def main():
                    net_file=net_file,
                    route_file=route_file,
                    out_csv_name='outputs/dqn_results',
-                   use_gui=True, 
-                   num_seconds=3600) 
-
+                   use_gui=False, 
+                   num_seconds=3600,
+                   reward_fn='queue',
+                   max_green=30) 
+    
+    print(f"🕵️ Semáforos encontrados e controlados pela IA: {env.unwrapped.ts_ids}")
     print("Ambiente configurado. Iniciando a construção do modelo DQN (Deep Q-Learning)...")
 
     # 2. Inicialização do Agente DQN (A Evolução do Q-Learning)

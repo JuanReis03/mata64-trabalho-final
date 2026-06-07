@@ -1,0 +1,92 @@
+Tabelas  de dqn_semaforo_model_v3.zip
+
+Step #0.00-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 720       |
+|    ep_rew_mean      | -4.58e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 4         |
+|    fps              | 23        |
+|    time_elapsed     | 120       |
+|    total_timesteps  | 2880      |
+| train/              |           |
+|    learning_rate    | 0.001     |
+|    loss             | 0.718     |
+|    n_updates        | 694       |
+-----------------------------------
+Step #0.00-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 720       |
+|    ep_rew_mean      | -3.67e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 8         |
+|    fps              | 24        |
+|    time_elapsed     | 231       |
+|    total_timesteps  | 5760      |
+| train/              |           |
+|    learning_rate    | 0.001     |
+|    loss             | 0.791     |
+|    n_updates        | 1414      |
+-----------------------------------
+Step #0.00-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 720       |
+|    ep_rew_mean      | -3.29e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 12        |
+|    fps              | 26        |
+|    time_elapsed     | 329       |
+|    total_timesteps  | 8640      |
+| train/              |           |
+|    learning_rate    | 0.001     |
+|    loss             | 0.588     |
+|    n_updates        | 2134      |
+-----------------------------------
+Step #0.00----------------------------------
+| rollout/            |          |
+|    ep_len_mean      | 720      |
+|    ep_rew_mean      | -3.1e+03 |
+|    exploration_rate | 0.05     |
+| time/               |          |
+|    episodes         | 16       |
+|    fps              | 27       |
+|    time_elapsed     | 421      |
+|    total_timesteps  | 11520    |
+| train/              |          |
+|    learning_rate    | 0.001    |
+|    loss             | 0.9      |
+|    n_updates        | 2854     |
+----------------------------------
+Step #0.00-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 720       |
+|    ep_rew_mean      | -2.92e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 20        |
+|    fps              | 28        |
+|    time_elapsed     | 512       |
+|    total_timesteps  | 14400     |
+| train/              |           |
+|    learning_rate    | 0.001     |
+|    loss             | 0.616     |
+|    n_updates        | 3574      |
+-----------------------------------
+Step #0.00-----------------------------------
+| rollout/            |           |
+|    ep_len_mean      | 720       |
+|    ep_rew_mean      | -2.83e+03 |
+|    exploration_rate | 0.05      |
+| time/               |           |
+|    episodes         | 24        |
+|    fps              | 28        |
+|    time_elapsed     | 603       |
+|    total_timesteps  | 17280     |
+| train/              |           |
+|    learning_rate    | 0.001     |
+|    loss             | 0.93      |
+|    n_updates        | 4294      |
+-----------------------------------

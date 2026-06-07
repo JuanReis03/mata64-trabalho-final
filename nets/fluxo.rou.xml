@@ -10,11 +10,11 @@
     <flow id="f_1" begin="0.00" end="3600.00" probability="0.10" type="carro_padrao" from="-E17" to="E19"/> <flow id="f_10" begin="0.00" end="3600.00" probability="0.05" type="carro_padrao" from="-E17" to="-E16"/>
     <flow id="f_11" begin="0.00" end="3600.00" probability="0.05" type="carro_padrao" from="-E17" to="-E18"/>
 
-    <flow id="f_0" begin="0.00" end="3600.00" probability="0.06" type="carro_padrao" from="E18" to="-E16"/>
-    <flow id="f_7" begin="0.00" end="3600.00" probability="0.06" type="carro_padrao" from="E18" to="E19"/>
-    <flow id="f_8" begin="0.00" end="3600.00" probability="0.06" type="carro_padrao" from="E18" to="E17"/>
+    <flow id="f_0" begin="0.00" end="3600.00" probability="0.03" type="carro_padrao" from="E18" to="-E16"/>
+    <flow id="f_7" begin="0.00" end="3600.00" probability="0.03" type="carro_padrao" from="E18" to="E19"/>
+    <flow id="f_8" begin="0.00" end="3600.00" probability="0.03" type="carro_padrao" from="E18" to="E17"/>
 
-    <flow id="f_4" begin="0.00" end="3600.00" probability="0.06" type="carro_padrao" from="-E19" to="-E16"/>
-    <flow id="f_5" begin="0.00" end="3600.00" probability="0.06" type="carro_padrao" from="-E19" to="-E18"/>
-    <flow id="f_6" begin="0.00" end="3600.00" probability="0.06" type="carro_padrao" from="-E19" to="E17"/>
+    <flow id="f_4" begin="0.00" end="3600.00" probability="0.03" type="carro_padrao" from="-E19" to="-E16"/>
+    <flow id="f_5" begin="0.00" end="3600.00" probability="0.03" type="carro_padrao" from="-E19" to="-E18"/>
+    <flow id="f_6" begin="0.00" end="3600.00" probability="0.03" type="carro_padrao" from="-E19" to="E17"/>
 </routes>

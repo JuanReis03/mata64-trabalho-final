@@ -1,0 +1,901 @@
+Tabelas do   a2c_semaforo_model_v1.zip
+
+Step #2500.00------------------------------------raCI: 57ms, vehicles TOT 1404 ACT 42 BUF 
+| time/                 |          |
+|    fps                | 24       |
+|    iterations         | 100      |
+|    time_elapsed       | 20       |
+|    total_timesteps    | 500      |
+| train/                |          |
+|    entropy_loss       | -0.496   |
+|    explained_variance | 0.000736 |
+|    learning_rate      | 0.0007   |
+|    n_updates          | 99       |
+|    policy_loss        | -18.6    |
+|    value_loss         | 5.17e+03 |
+------------------------------------
+Warning: Vehicle 'f_3.157' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2927.00.
+Warning: Vehicle 'f_9.168' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=3385.00.
+Step #3400.00Warning: Vehicle 'f_9.172' performs emergency braking on lane 'E16_1' with decel=9.00, wished=4.50, severity=1.00, time=3400.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 43ms, vehicles TOT 2114 ACT 32 BUF 21)              
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_1.6' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=64.00.
+Warning: Vehicle 'f_10.7' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=226.00.
+Warning: Vehicle 'f_1.39' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=417.00.
+Warning: Vehicle 'f_10.43' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=858.00.
+Warning: Vehicle 'f_7.35' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=1236.00.
+Warning: Vehicle 'f_10.62' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=1251.00.
+Step #1400.00-------------------------------------aCI: 35ms, vehicles TOT 690 ACT 19 BUF 0
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -6.56e+03 |
+| time/                 |           |
+|    fps                | 24        |
+|    iterations         | 200       |
+|    time_elapsed       | 41        |
+|    total_timesteps    | 1000      |
+| train/                |           |
+|    entropy_loss       | -0.585    |
+|    explained_variance | 0.0128    |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 199       |
+|    policy_loss        | -6.21     |
+|    value_loss         | 184       |
+-------------------------------------
+Warning: Vehicle 'f_1.136' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=1484.00.
+Warning: Vehicle 'f_9.96' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2177.00.
+Warning: Vehicle 'f_9.102' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2387.00.
+Warning: Vehicle 'f_1.266' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=2653.00.
+Warning: Vehicle 'f_9.133' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2938.00.
+Warning: Vehicle 'f_1.333' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=3409.00.
+Warning: Vehicle 'f_10.170' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3548.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 38ms, vehicles TOT 2082 ACT 31 BUF 1)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.2' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=39.00.
+Step #300.00-------------------------------------es TOT 130 ACT 21 BUF 0)                 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -6.04e+03 |
+| time/                 |           |
+|    fps                | 23        |
+|    iterations         | 300       |
+|    time_elapsed       | 62        |
+|    total_timesteps    | 1500      |
+| train/                |           |
+|    entropy_loss       | -0.491    |
+|    explained_variance | -0.0463   |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 299       |
+|    policy_loss        | -3.37     |
+|    value_loss         | 27.1      |
+-------------------------------------
+Warning: Vehicle 'f_9.92' performs emergency braking on lane 'E16_1' with decel=9.00, wished=4.50, severity=1.00, time=1429.00.
+Warning: Vehicle 'f_9.100' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1593.00.
+Warning: Vehicle 'f_9.107' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1840.00.
+Warning: Vehicle 'f_11.99' performs emergency braking on lane ':J14_16_0' with decel=9.00, wished=4.50, severity=1.00, time=1871.00.
+Warning: Vehicle 'f_10.79' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2005.00.
+Warning: Vehicle 'f_5.55' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=2341.00.
+Step #2800.00-------------------------------------aCI: 28ms, vehicles TOT 1534 ACT 12 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -6.04e+03 |
+| time/                 |           |
+|    fps                | 24        |
+|    iterations         | 400       |
+|    time_elapsed       | 80        |
+|    total_timesteps    | 2000      |
+| train/                |           |
+|    entropy_loss       | -0.531    |
+|    explained_variance | 0.000723  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 399       |
+|    policy_loss        | -9.54     |
+|    value_loss         | 241       |
+-------------------------------------
+Warning: Vehicle 'f_1.269' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=2831.00.
+Warning: Vehicle 'f_9.145' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2864.00.
+Warning: Vehicle 'f_7.106' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=3108.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 33ms, vehicles TOT 2079 ACT 23 BUF 4)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Step #1700.00-------------------------------------aCI: 41ms, vehicles TOT 922 ACT 24 BUF 0
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -5.7e+03  |
+| time/                 |           |
+|    fps                | 25        |
+|    iterations         | 500       |
+|    time_elapsed       | 98        |
+|    total_timesteps    | 2500      |
+| train/                |           |
+|    entropy_loss       | -0.503    |
+|    explained_variance | -0.000745 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 499       |
+|    policy_loss        | -8.96     |
+|    value_loss         | 559       |
+-------------------------------------
+Warning: Vehicle 'f_10.81' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=1780.00.
+Warning: Vehicle 'f_9.100' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1923.00.
+Warning: Vehicle 'f_9.110' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2124.00.
+Warning: Vehicle 'f_1.210' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=2172.00.
+Warning: Vehicle 'f_3.143' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2889.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 28ms, vehicles TOT 2118 ACT 20 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_9.2' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=73.00.
+Warning: Vehicle 'f_1.43' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=320.00.
+Warning: Vehicle 'f_2.54' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=576.00.
+Warning: Vehicle 'f_9.33' performs emergency braking on lane ':J14_1_0' with decel=9.00, wished=4.50, severity=1.00, time=597.00.
+Step #600.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -5.61e+03 |
+| time/                 |           |
+|    fps                | 25        |
+|    iterations         | 600       |
+|    time_elapsed       | 118       |
+|    total_timesteps    | 3000      |
+| train/                |           |
+|    entropy_loss       | -0.612    |
+|    explained_variance | 3.86e-05  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 599       |
+|    policy_loss        | -6.98     |
+|    value_loss         | 490       |
+-------------------------------------
+Warning: Vehicle 'f_10.37' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=775.00.
+Warning: Vehicle 'f_10.41' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=837.00.
+Step #900.00Warning: Vehicle 'f_10.42' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=900.00.
+Warning: Vehicle 'f_1.220' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=2068.00.
+Warning: Vehicle 'f_7.59' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=2330.00.
+Step #3100.00-------------------------------------es TOT 1766 ACT 17 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -5.61e+03 |
+| time/                 |           |
+|    fps                | 25        |
+|    iterations         | 700       |
+|    time_elapsed       | 135       |
+|    total_timesteps    | 3500      |
+| train/                |           |
+|    entropy_loss       | -0.585    |
+|    explained_variance | -0.00146  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 699       |
+|    policy_loss        | -2.47     |
+|    value_loss         | 60.4      |
+-------------------------------------
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 2106 ACT 9 BUF 0)                
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.4' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=114.00.
+Warning: Vehicle 'f_10.12' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=313.00.
+Warning: Vehicle 'f_10.13' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=331.00.
+Warning: Vehicle 'f_10.24' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=535.00.
+Warning: Vehicle 'f_10.32' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=774.00.
+Warning: Vehicle 'f_3.51' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1076.00.
+Warning: Vehicle 'f_3.87' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1681.00.
+Step #2000.00-------------------------------------aCI: 32ms, vehicles TOT 1127 ACT 18 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -5.26e+03 |
+| time/                 |           |
+|    fps                | 26        |
+|    iterations         | 800       |
+|    time_elapsed       | 153       |
+|    total_timesteps    | 4000      |
+| train/                |           |
+|    entropy_loss       | -0.533    |
+|    explained_variance | 0.000335  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 799       |
+|    policy_loss        | -7.08     |
+|    value_loss         | 126       |
+-------------------------------------
+Warning: Vehicle 'f_10.96' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2255.00.
+Warning: Vehicle 'f_10.103' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2356.00.
+Warning: Vehicle 'f_10.168' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=3519.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 36ms, vehicles TOT 2116 ACT 30 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.11' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=204.00.
+Warning: Vehicle 'f_10.14' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=248.00.
+Step #900.00-------------------------------------aCI: 45ms, vehicles TOT 480 ACT 30 BUF 2)
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.92e+03 |
+| time/                 |           |
+|    fps                | 26        |
+|    iterations         | 900       |
+|    time_elapsed       | 171       |
+|    total_timesteps    | 4500      |
+| train/                |           |
+|    entropy_loss       | -0.581    |
+|    explained_variance | 4.95e-06  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 899       |
+|    policy_loss        | -1.97     |
+|    value_loss         | 108       |
+-------------------------------------
+Warning: Vehicle 'f_11.73' performs emergency braking on lane ':J14_16_0' with decel=9.00, wished=4.50, severity=1.00, time=1467.00.
+Warning: Vehicle 'f_2.208' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=2045.00.
+Warning: Vehicle 'f_10.108' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2233.00.
+Warning: Vehicle 'f_10.119' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2354.00.
+Warning: Vehicle 'f_10.120' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2396.00.
+Warning: Vehicle 'f_9.112' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2469.00.
+Warning: Vehicle 'f_10.124' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2576.00.
+Warning: Vehicle 'f_10.135' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2721.00.
+Warning: Vehicle 'f_9.142' performs emergency braking on lane ':J14_1_0' with decel=9.00, wished=4.50, severity=1.00, time=3134.00.
+Warning: Vehicle 'f_10.168' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3255.00.
+Warning: Vehicle 'f_10.169' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=3274.00.
+Step #3400.00-------------------------------------es TOT 1956 ACT 22 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.92e+03 |
+| time/                 |           |
+|    fps                | 26        |
+|    iterations         | 1000      |
+|    time_elapsed       | 190       |
+|    total_timesteps    | 5000      |
+| train/                |           |
+|    entropy_loss       | -0.61     |
+|    explained_variance | 1.52e-05  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 999       |
+|    policy_loss        | -15.1     |
+|    value_loss         | 514       |
+-------------------------------------
+Warning: Vehicle 'f_10.182' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=3505.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 46ms, vehicles TOT 2151 ACT 33 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_3.22' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=591.00.
+Warning: Vehicle 'f_9.29' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=618.00.
+Warning: Vehicle 'f_2.71' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=852.00.
+Warning: Vehicle 'f_10.48' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=957.00.
+Warning: Vehicle 'f_10.47' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=957.00.
+Warning: Vehicle 'f_10.99' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=1559.00.
+Step #2300.00-------------------------------------aCI: 32ms, vehicles TOT 1205 ACT 17 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.78e+03 |
+| time/                 |           |
+|    fps                | 26        |
+|    iterations         | 1100      |
+|    time_elapsed       | 207       |
+|    total_timesteps    | 5500      |
+| train/                |           |
+|    entropy_loss       | -0.553    |
+|    explained_variance | -0.000329 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1099      |
+|    policy_loss        | -2.69     |
+|    value_loss         | 70.2      |
+-------------------------------------
+Warning: Vehicle 'f_10.129' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2381.00.
+Warning: Vehicle 'f_9.135' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2856.00.
+Warning: Vehicle 'f_10.172' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3013.00.
+Warning: Vehicle 'f_10.179' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3172.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 20ms, vehicles TOT 1976 ACT 12 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.7' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=141.00.
+Warning: Vehicle 'f_10.27' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=498.00.
+Warning: Vehicle 'f_1.45' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=568.00.
+Warning: Vehicle 'f_2.75' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=771.00.
+Warning: Vehicle 'f_10.49' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=947.00.
+Step #1200.00-------------------------------------es TOT 613 ACT 14 BUF 0)                
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.48e+03 |
+| time/                 |           |
+|    fps                | 26        |
+|    iterations         | 1200      |
+|    time_elapsed       | 223       |
+|    total_timesteps    | 6000      |
+| train/                |           |
+|    entropy_loss       | -0.517    |
+|    explained_variance | -2.78e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1199      |
+|    policy_loss        | -13.5     |
+|    value_loss         | 225       |
+-------------------------------------
+Warning: Vehicle 'f_7.43' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=1549.00.
+Warning: Vehicle 'f_10.80' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=1936.00.
+Warning: Vehicle 'f_10.123' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2615.00.
+Warning: Vehicle 'f_10.150' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3040.00.
+Warning: Vehicle 'f_10.162' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3220.00.
+Warning: Vehicle 'f_3.184' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=3434.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 25ms, vehicles TOT 2096 ACT 17 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Step #100.00-------------------------------------: 19ms, vehicles TOT 1 ACT 1 BUF 0)      
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.35e+03 |
+| time/                 |           |
+|    fps                | 26        |
+|    iterations         | 1300      |
+|    time_elapsed       | 243       |
+|    total_timesteps    | 6500      |
+| train/                |           |
+|    entropy_loss       | -0.523    |
+|    explained_variance | -1.76e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1299      |
+|    policy_loss        | -4.3      |
+|    value_loss         | 131       |
+-------------------------------------
+Warning: Vehicle 'f_3.22' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=484.00.
+Warning: Vehicle 'f_9.25' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=496.00.
+Warning: Vehicle 'f_1.70' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=692.00.
+Warning: Vehicle 'f_11.89' performs emergency braking on lane ':J14_16_0' with decel=9.00, wished=4.50, severity=1.00, time=1610.00.
+Warning: Vehicle 'f_10.91' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=1679.00.
+Step #2600.00-------------------------------------aCI: 39ms, vehicles TOT 1459 ACT 24 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.35e+03 |
+| time/                 |           |
+|    fps                | 27        |
+|    iterations         | 1400      |
+|    time_elapsed       | 258       |
+|    total_timesteps    | 7000      |
+| train/                |           |
+|    entropy_loss       | -0.408    |
+|    explained_variance | -7.39e-06 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1399      |
+|    policy_loss        | -10.6     |
+|    value_loss         | 98.8      |
+-------------------------------------
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 23ms, vehicles TOT 2109 ACT 15 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_7.0' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=22.00.
+Warning: Vehicle 'f_2.0' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=37.00.
+Warning: Vehicle 'f_2.2' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=59.00.
+Step #1500.00-------------------------------------aCI: 32ms, vehicles TOT 770 ACT 20 BUF 0
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.19e+03 |
+| time/                 |           |
+|    fps                | 27        |
+|    iterations         | 1500      |
+|    time_elapsed       | 275       |
+|    total_timesteps    | 7500      |
+| train/                |           |
+|    entropy_loss       | -0.44     |
+|    explained_variance | -2.07e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1499      |
+|    policy_loss        | -6.71     |
+|    value_loss         | 203       |
+-------------------------------------
+Warning: Vehicle 'f_9.110' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2312.00.
+Warning: Vehicle 'f_9.113' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2394.00.
+Warning: Vehicle 'f_10.137' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2829.00.
+Warning: Vehicle 'f_10.138' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2839.00.
+Warning: Vehicle 'f_10.156' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3314.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 24ms, vehicles TOT 2017 ACT 19 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.11' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=335.00.
+Step #400.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.02e+03 |
+| time/                 |           |
+|    fps                | 27        |
+|    iterations         | 1600      |
+|    time_elapsed       | 290       |
+|    total_timesteps    | 8000      |
+| train/                |           |
+|    entropy_loss       | -0.472    |
+|    explained_variance | 4.41e-06  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1599      |
+|    policy_loss        | -4.38     |
+|    value_loss         | 151       |
+-------------------------------------
+Warning: Vehicle 'f_1.67' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=631.00.
+Warning: Vehicle 'f_9.35' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=724.00.
+Warning: Vehicle 'f_9.48' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1149.00.
+Warning: Vehicle 'f_7.46' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=1330.00.
+Warning: Vehicle 'f_3.77' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1546.00.
+Warning: Vehicle 'f_3.91' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1832.00.
+Warning: Vehicle 'f_9.103' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2182.00.
+Step #2900.00-------------------------------------es TOT 1619 ACT 30 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -4.02e+03 |
+| time/                 |           |
+|    fps                | 27        |
+|    iterations         | 1700      |
+|    time_elapsed       | 304       |
+|    total_timesteps    | 8500      |
+| train/                |           |
+|    entropy_loss       | -0.214    |
+|    explained_variance | -5.96e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1699      |
+|    policy_loss        | -5.61     |
+|    value_loss         | 329       |
+-------------------------------------
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 23ms, vehicles TOT 2079 ACT 23 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.12' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=306.00.
+Warning: Vehicle 'f_3.50' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=744.00.
+Step #1800.00-------------------------------------es TOT 1015 ACT 16 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.93e+03 |
+| time/                 |           |
+|    fps                | 28        |
+|    iterations         | 1800      |
+|    time_elapsed       | 319       |
+|    total_timesteps    | 9000      |
+| train/                |           |
+|    entropy_loss       | -0.404    |
+|    explained_variance | 5.95e-05  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1799      |
+|    policy_loss        | -1.67     |
+|    value_loss         | 54.5      |
+-------------------------------------
+Warning: Vehicle 'f_3.116' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1931.00.
+Warning: Vehicle 'f_5.53' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=2030.00.
+Warning: Vehicle 'f_1.218' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=2293.00.
+Warning: Vehicle 'f_10.159' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3190.00.
+Warning: Vehicle 'f_1.312' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=3228.00.
+Warning: Vehicle 'f_10.181' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3593.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 21ms, vehicles TOT 2154 ACT 19 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_9.4' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=104.00.
+Step #700.00-------------------------------------es TOT 325 ACT 16 BUF 0)                 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.85e+03 |
+| time/                 |           |
+|    fps                | 28        |
+|    iterations         | 1900      |
+|    time_elapsed       | 334       |
+|    total_timesteps    | 9500      |
+| train/                |           |
+|    entropy_loss       | -0.284    |
+|    explained_variance | -6.89e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1899      |
+|    policy_loss        | -5.77     |
+|    value_loss         | 50.6      |
+-------------------------------------
+Warning: Vehicle 'f_9.49' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=965.00.
+Warning: Vehicle 'f_5.53' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=1813.00.
+Warning: Vehicle 'f_10.100' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2217.00.
+Warning: Vehicle 'f_10.136' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=3056.00.
+Step #3200.00-------------------------------------aCI: 23ms, vehicles TOT 1765 ACT 11 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.85e+03 |
+| time/                 |           |
+|    fps                | 28        |
+|    iterations         | 2000      |
+|    time_elapsed       | 348       |
+|    total_timesteps    | 10000     |
+| train/                |           |
+|    entropy_loss       | -0.312    |
+|    explained_variance | -8.43e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 1999      |
+|    policy_loss        | -2.26     |
+|    value_loss         | 12        |
+-------------------------------------
+Warning: Vehicle 'f_10.162' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3548.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 37ms, vehicles TOT 2059 ACT 32 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_5.0' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=35.00.
+Warning: Vehicle 'f_10.13' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=291.00.
+Warning: Vehicle 'f_5.17' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=545.00.
+Warning: Vehicle 'f_10.54' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=1130.00.
+Step #2100.00-------------------------------------es TOT 1166 ACT 19 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.75e+03 |
+| time/                 |           |
+|    fps                | 28        |
+|    iterations         | 2100      |
+|    time_elapsed       | 363       |
+|    total_timesteps    | 10500     |
+| train/                |           |
+|    entropy_loss       | -0.341    |
+|    explained_variance | 0.000192  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2099      |
+|    policy_loss        | -0.895    |
+|    value_loss         | 7.51      |
+-------------------------------------
+Warning: Vehicle 'f_10.155' performs emergency braking on lane ':J14_8_0' with decel=9.00, wished=4.50, severity=1.00, time=3399.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 21ms, vehicles TOT 2012 ACT 17 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_3.38' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=990.00.
+Step #1000.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.64e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2200      |
+|    time_elapsed       | 377       |
+|    total_timesteps    | 11000     |
+| train/                |           |
+|    entropy_loss       | -0.327    |
+|    explained_variance | -8.94e-06 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2199      |
+|    policy_loss        | -1.47     |
+|    value_loss         | 10.7      |
+-------------------------------------
+Warning: Vehicle 'f_7.69' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=2261.00.
+Warning: Vehicle 'f_3.126' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2890.00.
+Warning: Vehicle 'f_10.159' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3029.00.
+Warning: Vehicle 'f_1.336' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=3179.00.
+Step #3400.00Warning: Vehicle 'f_10.180' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=3400.00.
+Step #3500.00-------------------------------------hicles TOT 1998 ACT 16 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.64e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2300      |
+|    time_elapsed       | 391       |
+|    total_timesteps    | 11500     |
+| train/                |           |
+|    entropy_loss       | -0.284    |
+|    explained_variance | 6.5e-06   |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2299      |
+|    policy_loss        | -1.47     |
+|    value_loss         | 50.3      |
+-------------------------------------
+Warning: Vehicle 'f_2.365' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=3535.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 22ms, vehicles TOT 2117 ACT 18 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_9.16' performs emergency braking on lane ':J14_1_1' with decel=9.00, wished=4.50, severity=1.00, time=367.00.
+Warning: Vehicle 'f_7.15' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=543.00.
+Warning: Vehicle 'f_9.31' performs emergency braking on lane ':J14_1_0' with decel=9.00, wished=4.50, severity=1.00, time=607.00.
+Warning: Vehicle 'f_9.88' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1709.00.
+Warning: Vehicle 'f_10.102' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=1998.00.
+Step #2400.00-------------------------------------aCI: 34ms, vehicles TOT 1389 ACT 25 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.61e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2400      |
+|    time_elapsed       | 406       |
+|    total_timesteps    | 12000     |
+| train/                |           |
+|    entropy_loss       | -0.156    |
+|    explained_variance | 2.15e-06  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2399      |
+|    policy_loss        | -3.21     |
+|    value_loss         | 264       |
+-------------------------------------
+Warning: Vehicle 'f_9.148' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2816.00.
+Warning: Vehicle 'f_2.336' performs emergency braking on lane ':J14_14_0' with decel=9.00, wished=4.50, severity=1.00, time=3039.00.
+Warning: Vehicle 'f_9.166' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=3334.00.
+Step #3600.00 (1ms ~= 1000.00*RT, ~34000.00UPS, TraCI: 41ms, vehicles TOT 2191 ACT 34 BUF 
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.25' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=392.00.
+Warning: Vehicle 'f_9.17' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=519.00.
+Warning: Vehicle 'f_10.36' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=541.00.
+Warning: Vehicle 'f_10.43' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=686.00.
+Warning: Vehicle 'f_10.59' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=1150.00.
+Step #1300.00-------------------------------------es TOT 679 ACT 12 BUF 0)                
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.6e+03  |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2500      |
+|    time_elapsed       | 422       |
+|    total_timesteps    | 12500     |
+| train/                |           |
+|    entropy_loss       | -0.331    |
+|    explained_variance | -1.66e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2499      |
+|    policy_loss        | -0.528    |
+|    value_loss         | 40.8      |
+-------------------------------------
+Warning: Vehicle 'f_3.79' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1612.00.
+Warning: Vehicle 'f_10.100' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2041.00.
+Warning: Vehicle 'f_10.141' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2866.00.
+Warning: Vehicle 'f_9.143' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2974.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 18ms, vehicles TOT 2117 ACT 10 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Step #200.00-------------------------------------es TOT 39 ACT 6 BUF 0)                   
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.55e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2600      |
+|    time_elapsed       | 437       |
+|    total_timesteps    | 13000     |
+| train/                |           |
+|    entropy_loss       | -0.149    |
+|    explained_variance | -1.19e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2599      |
+|    policy_loss        | -0.235    |
+|    value_loss         | 43.2      |
+-------------------------------------
+Warning: Vehicle 'f_10.10' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=254.00.
+Warning: Vehicle 'f_10.20' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=436.00.
+Warning: Vehicle 'f_5.69' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=1889.00.
+Warning: Vehicle 'f_5.74' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=2051.00.
+Warning: Vehicle 'f_3.131' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2244.00.
+Warning: Vehicle 'f_10.119' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2251.00.
+Warning: Vehicle 'f_5.78' performs emergency braking on lane ':J14_5_0' with decel=9.00, wished=4.50, severity=1.00, time=2299.00.
+Step #2700.00-------------------------------------es TOT 1518 ACT 26 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.55e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2700      |
+|    time_elapsed       | 454       |
+|    total_timesteps    | 13500     |
+| train/                |           |
+|    entropy_loss       | -0.229    |
+|    explained_variance | 9.54e-07  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2699      |
+|    policy_loss        | -4.19     |
+|    value_loss         | 357       |
+-------------------------------------
+Step #3600.00 (1ms ~= 1000.00*RT, ~18000.00UPS, TraCI: 25ms, vehicles TOT 2136 ACT 18 BUF 
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_7.8' performs emergency braking on lane ':J14_12_0' with decel=9.00, wished=4.50, severity=1.00, time=320.00.
+Warning: Vehicle 'f_3.59' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=1032.00.
+Step #1600.00-------------------------------------aCI: 37ms, vehicles TOT 862 ACT 22 BUF 0
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.56e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2800      |
+|    time_elapsed       | 471       |
+|    total_timesteps    | 14000     |
+| train/                |           |
+|    entropy_loss       | -0.0491   |
+|    explained_variance | -4.77e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2799      |
+|    policy_loss        | -0.126    |
+|    value_loss         | 158       |
+-------------------------------------
+Warning: Vehicle 'f_10.94' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2051.00.
+Warning: Vehicle 'f_3.117' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2289.00.
+Step #3600.00 (1ms ~= 1000.00*RT, ~27000.00UPS, TraCI: 32ms, vehicles TOT 2089 ACT 27 BUF 
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Step #500.00-------------------------------------es TOT 227 ACT 17 BUF 0)                 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.58e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 2900      |
+|    time_elapsed       | 488       |
+|    total_timesteps    | 14500     |
+| train/                |           |
+|    entropy_loss       | -0.271    |
+|    explained_variance | -1.31e-06 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2899      |
+|    policy_loss        | -0.57     |
+|    value_loss         | 21.3      |
+-------------------------------------
+Warning: Vehicle 'f_9.132' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=2684.00.
+Warning: Vehicle 'f_10.144' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2886.00.
+Step #3000.00-------------------------------------es TOT 1643 ACT 20 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.58e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 3000      |
+|    time_elapsed       | 504       |
+|    total_timesteps    | 15000     |
+| train/                |           |
+|    entropy_loss       | -0.271    |
+|    explained_variance | 5.36e-07  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 2999      |
+|    policy_loss        | -2.18     |
+|    value_loss         | 180       |
+-------------------------------------
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 19ms, vehicles TOT 2044 ACT 15 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_10.31' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=472.00.
+Warning: Vehicle 'f_7.12' performs emergency braking on lane 'E18_0' with decel=9.00, wished=4.50, severity=1.00, time=479.00.
+Warning: Vehicle 'f_9.29' performs emergency braking on lane ':J14_1_1' with decel=9.00, wished=4.50, severity=1.00, time=637.00.
+Warning: Vehicle 'f_10.44' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=694.00.
+Warning: Vehicle 'f_10.89' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=1593.00.
+Warning: Vehicle 'f_10.97' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=1756.00.
+Step #1900.00-------------------------------------es TOT 1041 ACT 12 BUF 0)               
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.54e+03 |
+| time/                 |           |
+|    fps                | 29        |
+|    iterations         | 3100      |
+|    time_elapsed       | 518       |
+|    total_timesteps    | 15500     |
+| train/                |           |
+|    entropy_loss       | -0.21     |
+|    explained_variance | 7.93e-06  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3099      |
+|    policy_loss        | -1.12     |
+|    value_loss         | 16.8      |
+-------------------------------------
+Warning: Vehicle 'f_10.116' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2133.00.
+Warning: Vehicle 'f_10.142' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=2676.00.
+Warning: Vehicle 'f_10.151' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2783.00.
+Warning: Vehicle 'f_10.158' performs emergency braking on lane '-E17_1' with decel=9.00, wished=4.50, severity=1.00, time=2989.00.
+Warning: Vehicle 'f_9.160' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=3248.00.
+Warning: Vehicle 'f_10.177' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=3328.00.
+Warning: Vehicle 'f_10.183' performs emergency braking on lane ':J14_8_1' with decel=9.00, wished=4.50, severity=1.00, time=3487.00.
+Step #3600.00 (0ms ?*RT. ?UPS, TraCI: 28ms, vehicles TOT 2038 ACT 23 BUF 0)               
+Warning: Environment variable SUMO_HOME is not set properly, disabling XML validation. Set 'auto' or 'always' for web lookups.
+Warning: Vehicle 'f_1.12' performs emergency braking on lane '-E17_0' with decel=9.00, wished=4.50, severity=1.00, time=191.00.
+Warning: Vehicle 'f_9.32' performs emergency braking on lane 'E16_0' with decel=9.00, wished=4.50, severity=1.00, time=716.00.
+Step #800.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.48e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3200      |
+|    time_elapsed       | 533       |
+|    total_timesteps    | 16000     |
+| train/                |           |
+|    entropy_loss       | -0.273    |
+|    explained_variance | 1.19e-06  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3199      |
+|    policy_loss        | -12.6     |
+|    value_loss         | 145       |
+-------------------------------------
+Step #3300.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.48e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3300      |
+|    time_elapsed       | 547       |
+|    total_timesteps    | 16500     |
+| train/                |           |
+|    entropy_loss       | -0.247    |
+|    explained_variance | 1.79e-07  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3299      |
+|    policy_loss        | -0.39     |
+|    value_loss         | 21.2      |
+-------------------------------------
+
+Step #2200.00-------------------------------------aCI: 42ms, vehicles TOT 1274 ACT 28 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.44e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3400      |
+|    time_elapsed       | 563       |
+|    total_timesteps    | 17000     |
+| train/                |           |
+|    entropy_loss       | -0.356    |
+|    explained_variance | -2.03e-06 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3399      |
+|    policy_loss        | -4.22     |
+|    value_loss         | 227       |
+-------------------------------------
+Step #1100.00-------------------------------------es TOT 588 ACT 19 BUF 0)                
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.42e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3500      |
+|    time_elapsed       | 578       |
+|    total_timesteps    | 17500     |
+| train/                |           |
+|    entropy_loss       | -0.174    |
+|    explained_variance | -1.19e-06 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3499      |
+|    policy_loss        | -0.47     |
+|    value_loss         | 71.1      |
+-------------------------------------
+Step #0.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.39e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3600      |
+|    time_elapsed       | 596       |
+|    total_timesteps    | 18000     |
+| train/                |           |
+|    entropy_loss       | -0.333    |
+|    explained_variance | -1.19e-07 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3599      |
+|    policy_loss        | -4.46     |
+|    value_loss         | 692       |
+-------------------------------------
+Step #2500.00-------------------------------------aCI: 38ms, vehicles TOT 1376 ACT 22 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.39e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3700      |
+|    time_elapsed       | 610       |
+|    total_timesteps    | 18500     |
+| train/                |           |
+|    entropy_loss       | -0.255    |
+|    explained_variance | 1.85e-06  |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3699      |
+|    policy_loss        | -0.203    |
+|    value_loss         | 3.89      |
+-------------------------------------
+Step #1400.00-------------------------------------
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.36e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3800      |
+|    time_elapsed       | 627       |
+|    total_timesteps    | 19000     |
+| train/                |           |
+|    entropy_loss       | -0.248    |
+|    explained_variance | -5.96e-06 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3799      |
+|    policy_loss        | -2.42     |
+|    value_loss         | 84.3      |
+-------------------------------------
+Step #300.00-------------------------------------es TOT 120 ACT 19 BUF 1)                 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.32e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 3900      |
+|    time_elapsed       | 643       |
+|    total_timesteps    | 19500     |
+| train/                |           |
+|    entropy_loss       | -0.259    |
+|    explained_variance | -0.000122 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3899      |
+|    policy_loss        | -0.303    |
+|    value_loss         | 0.313     |
+-------------------------------------
+Step #2800.00-------------------------------------aCI: 36ms, vehicles TOT 1547 ACT 21 BUF 
+| rollout/              |           |
+|    ep_len_mean        | 720       |
+|    ep_rew_mean        | -3.32e+03 |
+| time/                 |           |
+|    fps                | 30        |
+|    iterations         | 4000      |
+|    time_elapsed       | 659       |
+|    total_timesteps    | 20000     |
+| train/                |           |
+|    entropy_loss       | -0.286    |
+|    explained_variance | -8.82e-05 |
+|    learning_rate      | 0.0007    |
+|    n_updates          | 3999      |
+|    policy_loss        | -0.24     |
+|    value_loss         | 1.93      |
+-------------------------------------

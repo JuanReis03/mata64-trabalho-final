@@ -14,8 +14,10 @@ def main():
                    net_file=net_file,
                    route_file=route_file,
                    out_csv_name='outputs/a2c_results',
-                   use_gui=True, 
-                   num_seconds=3600) 
+                   use_gui=False, 
+                   num_seconds=3600,
+                   reward_fn='queue',
+                   max_green=30)
 
     print("Ambiente configurado. Iniciando a construção do modelo A2C (Temporal Difference)...")
 
