@@ -1,45 +1,37 @@
 import os
 import gymnasium as gym
 import sumo_rl
-from stable_baselines3 import PPO
-from stable_baselines3.common.callbacks import EvalCallback
-from stable_baselines3.common.env_util import make_vec_env
+from stable_baselines3 import DQN
 
 def main():
-    # 1. Definição dos caminhos para os arquivos do SUMO
-    # (Estes arquivos representam o nosso ambiente físico)
+    # Definição dos caminhos para os arquivos do SUMO
     net_file = os.path.join('nets', 'cruzamento.net.xml')
     route_file = os.path.join('nets', 'fluxo.rou.xml')
 
-    # 2. Configuração do Ambiente SUMO-RL
-    # O sumo-rl registra o ambiente no Gymnasium automaticamente
+    # 1. Ambiente configurado SEM o ts_id (ele achará o J14 automaticamente)
     env = gym.make('sumo-rl-v0',
                    net_file=net_file,
                    route_file=route_file,
-                   out_csv_name='outputs/ppo_results',
-                   use_gui=True, # Mude para False para treinar mais rápido depois
-                   num_seconds=3600) # Simular 1 hora de trânsito
-    
-    # Vetorizar o ambiente é uma boa prática para o PPO no SB3
-    # env = make_vec_env(lambda: env, n_envs=1)
+                   out_csv_name='outputs/dqn_results',
+                   use_gui=True, 
+                   num_seconds=3600) 
 
-    print("Ambiente configurado. Iniciando a construção do modelo PPO...")
+    print("Ambiente configurado. Iniciando a construção do modelo DQN (Deep Q-Learning)...")
 
-    # 3. Inicialização do Agente PPO
-    # MlpPolicy indica que usaremos uma Rede Neural clássica para os Estados e Ações
-    model = PPO("MlpPolicy", 
+    # 2. Inicialização do Agente DQN (A Evolução do Q-Learning)
+    # A política MlpPolicy aproxima a Tabela Q usando uma rede neural
+    model = DQN("MlpPolicy", 
                 env, 
                 verbose=1, 
-                learning_rate=0.0003, 
-                gamma=0.99) # Fator de desconto: o quão o agente valoriza o futuro
+                learning_rate=0.001, 
+                buffer_size=10000,
+                exploration_fraction=0.1) # Q-Learning precisa de "exploração" no início
 
-    # 4. Treinamento do Agente
-    # Timesteps é a quantidade total de ações que o agente vai tomar no simulador
     print("Iniciando o treinamento...")
     model.learn(total_timesteps=20000)
 
-    # 5. Salvando o conhecimento (Os 'pesos' da rede neural)
-    model.save("ppo_semaforo_model")
+    # 3. Salvando o conhecimento (A função Q aprendida)
+    model.save("dqn_semaforo_model")
     print("Modelo salvo com sucesso!")
 
     env.close()
